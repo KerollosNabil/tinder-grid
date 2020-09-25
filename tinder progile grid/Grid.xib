@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="tIP-jW-dSk">
+            <rect key="frame" x="0.0" y="0.0" width="426" height="520"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="4e9-jw-7B8">
+                    <rect key="frame" x="284" y="60" width="126" height="410"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e1" translatesAutoresizingMaskIntoConstraints="NO" id="Feb-Pv-sam" customClass="TenderImageView" customModule="tinder_progile_grid" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="126" height="126"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="Feb-Pv-sam" secondAttribute="height" multiplier="1:1" id="IIc-ne-yP8"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="2"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e1" translatesAutoresizingMaskIntoConstraints="NO" id="14H-Fy-zlv" customClass="TenderImageView" customModule="tinder_progile_grid" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="142" width="126" height="126"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="3"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e1" translatesAutoresizingMaskIntoConstraints="NO" id="HSI-W7-ND6" customClass="TenderImageView" customModule="tinder_progile_grid" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="284" width="126" height="126"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="6"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                    </subviews>
+                </stackView>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="QPk-t2-GjI">
+                    <rect key="frame" x="16" y="344" width="252" height="126"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e1" translatesAutoresizingMaskIntoConstraints="NO" id="mel-AW-T7u" customClass="TenderImageView" customModule="tinder_progile_grid" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="122" height="126"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="4"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e1" translatesAutoresizingMaskIntoConstraints="NO" id="3TE-EK-gfH" customClass="TenderImageView" customModule="tinder_progile_grid" customModuleProvider="target">
+                            <rect key="frame" x="130" y="0.0" width="122" height="126"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                                    <integer key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                    </subviews>
+                </stackView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e1" translatesAutoresizingMaskIntoConstraints="NO" id="ARE-d2-mgW" customClass="TenderImageView" customModule="tinder_progile_grid" customModuleProvider="target">
+                    <rect key="frame" x="16" y="60" width="252" height="268"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="imageIndex">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="x8l-fL-bS0"/>
+            <constraints>
+                <constraint firstItem="QPk-t2-GjI" firstAttribute="top" secondItem="HSI-W7-ND6" secondAttribute="top" id="1Aw-31-0s8"/>
+                <constraint firstItem="4e9-jw-7B8" firstAttribute="leading" secondItem="QPk-t2-GjI" secondAttribute="trailing" constant="16" id="9Km-9m-bkw"/>
+                <constraint firstItem="4e9-jw-7B8" firstAttribute="leading" secondItem="ARE-d2-mgW" secondAttribute="trailing" constant="16" id="G5f-C0-jUJ"/>
+                <constraint firstItem="ARE-d2-mgW" firstAttribute="top" secondItem="Feb-Pv-sam" secondAttribute="top" id="I3e-k5-5uT"/>
+                <constraint firstItem="x8l-fL-bS0" firstAttribute="trailing" secondItem="4e9-jw-7B8" secondAttribute="trailing" constant="16" id="KKg-xf-HJj"/>
+                <constraint firstItem="4e9-jw-7B8" firstAttribute="top" secondItem="x8l-fL-bS0" secondAttribute="top" constant="16" id="PDE-3P-aci"/>
+                <constraint firstItem="ARE-d2-mgW" firstAttribute="leading" secondItem="x8l-fL-bS0" secondAttribute="leading" constant="16" id="XcF-HH-cAI"/>
+                <constraint firstItem="QPk-t2-GjI" firstAttribute="leading" secondItem="x8l-fL-bS0" secondAttribute="leading" constant="16" id="g51-pM-Lp5"/>
+                <constraint firstItem="QPk-t2-GjI" firstAttribute="bottom" secondItem="HSI-W7-ND6" secondAttribute="bottom" id="jm7-8e-uxv"/>
+                <constraint firstItem="QPk-t2-GjI" firstAttribute="top" secondItem="ARE-d2-mgW" secondAttribute="bottom" constant="16" id="ohb-Gy-bb4"/>
+                <constraint firstItem="4e9-jw-7B8" firstAttribute="width" secondItem="QPk-t2-GjI" secondAttribute="width" multiplier="0.5" id="yol-p6-qhD"/>
+            </constraints>
+            <point key="canvasLocation" x="-585.50724637681162" y="231.02678571428569"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="e1" width="634" height="530"/>
+    </resources>
+</document>
