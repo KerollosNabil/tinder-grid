@@ -1,4 +1,4 @@
 # Tinder Profile Grid
 
-<img src="g.png" alt="drawing" width="200"/></br></br>
-<img src="g.gif" alt="drawing"/>
+<img src="g.png" alt="drawing" width="200"/>
+<img src="g.gif" alt="drawing" width="400"/>
