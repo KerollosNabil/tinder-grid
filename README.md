@@ -2,6 +2,6 @@
 
 
 
- <img src="g.png" width="200" /><space> <img src="g.gif"  />  
+ <img src="g.png" width="200" /> <space><space><space><space>*<space> <img src="g.gif"  />  
 
 
