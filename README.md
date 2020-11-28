@@ -3,7 +3,7 @@
 
 
 
- <img src="g.png" width="200" /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <img src="g.gif"  />  
+ <img src="g.png" width="200" /> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; <img src="g.gif"  />  
 
 
 # technologies
